@@ -1,0 +1,95 @@
+import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Monserrat", sans-serif;
+    background-color: rgb(5, 172, 172);
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(2, 2, 40);
+    
+}
+.input2{
+    transition: ease-in .4s;
+    background-color: rgb(2, 2, 40);
+    border: 0cap;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    color: aqua;
+    font-size: 3rem;
+    
+}
+   
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.LISTA{
+    list-style: none;
+}
+.MENU-SUPERIOR{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 48%;
+    font-size: 1.5rem;
+    margin-left: -1rem;
+    
+
+}
+.HOME{
+    color: aqua;
+}
+
+input{
+    background-color: white;
+    border-radius: 20px;
+}
+.MENU-SUPERIOR a:hover{
+    background-color: aqua;
+    color:  rgb(2, 2, 40);
+   transition: ease-in .4s;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-content{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    font-size: 2.8rem;
+    border: 0cap;
+    background-color:  rgb(2, 2, 40) ;
+    color: aqua;
+    margin-left: -26rem;
+    margin-top: 4rem;
+    width: 21rem;
+    transition: ease-in .4s;
+}
+.content2{
+    font-size: 1.8rem;
+    border: 0 ;
+    background-color:  rgb(2, 2, 40);
+    color: aqua;
+    margin-left: -21rem;
+    margin-top: 2.6rem;
+   transition: ease-in .4s;
+}

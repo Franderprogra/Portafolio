@@ -127,13 +127,14 @@ a{
     background-color: rgb(2, 2, 40);
     border: 0cap;
     color: rgb(252, 255, 255);
-    font-size: 2rem;
-    margin-top: 8rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
     text-decoration: none;
+    width: 28rem;
+    height: 8rem;
 }
 .textarea:hover{
-    box-shadow: 20px aqua;
-    color: aqua;
+    
    transition: ease-in .4s;
 }
 .TUNOMBRE:hover{
@@ -145,4 +146,55 @@ a{
     box-shadow: 20px aqua;
     color: aqua;
    transition: ease-in .4s;
+}
+.about{
+    border-radius: 3rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: white;
+    width: 117vw;
+    align-items: center;
+    
+    
+}
+
+.fotoPersonal2{
+    width: 32rem;
+    height: 26rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+   
+}
+.about-info{
+    padding: 2rem;
+   
+}
+h2{
+    font-size: 1.5rem;
+    color: rgb(2, 2, 40) ;
+}
+.divider{
+    margin-bottom: 2rem;
+    background-color: aqua;
+    height: 0.2rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.textarea2{
+    width: 40rem;
+    height: 12rem;
+    padding: 1rem;
+    border: 0;
+    font-size: 2.5rem;
+    color: rgb(2, 2, 40);
+}
+.Foto3{
+    margin-top: 27rem;
+   margin-left: -3rem;
+    color: white;
+}
+.textFoto2{
+    margin-top: 27rem;
+  
 }

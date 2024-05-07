@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
 
     margin: 0%;
@@ -7,7 +7,7 @@ import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100.
 }
 body{
     font-family: "Monserrat", sans-serif;
-    background-color: rgb(5, 172, 172);
+    background-color: rgb(2, 2, 40);
 }
 .wrapper{
     width: 100vw;
@@ -21,7 +21,7 @@ body{
     border: 0cap;
     margin-top: 1rem;
     margin-left: 3rem;
-    color: aqua;
+    color: rgb(251, 254, 254);
     font-size: 3rem;
     
 }
@@ -44,7 +44,7 @@ a{
     margin-top: 2.5rem;
     display: flex;
     justify-content: space-around;
-    width: 48%;
+    width: 49%;
     font-size: 1.5rem;
     margin-left: -1rem;
     
@@ -54,10 +54,7 @@ a{
     color: aqua;
 }
 
-input{
-    background-color: white;
-    border-radius: 20px;
-}
+
 .MENU-SUPERIOR a:hover{
     background-color: aqua;
     color:  rgb(2, 2, 40);
@@ -69,27 +66,83 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    height: 500px;
+}
+
+
+
+.fotoPersonal{
+    width: 32rem;
+    height: 26rem;
+    margin-top: -7rem;
+   
+    
+}
+.Contenedor1{
+    
+    margin-top: 9rem;
+    margin-left: 20rem;
+    
+    
+    
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Foto2{
+    background-color:  rgb(2, 2, 40);
+    border: 0cap;
+    color:  rgb(2, 2, 40);
+    
+    margin-right: 30rem;
+    
+
+}
+.textFoto{
+    color: white;
+    margin-right: 40rem;
+    
 }
 .info-content{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
 }
-.content{
-    font-size: 2.8rem;
+.TUNOMBRE{
+    margin-left: 3rem;
+    background-color: rgb(2, 2, 40);
     border: 0cap;
-    background-color:  rgb(2, 2, 40) ;
-    color: aqua;
-    margin-left: -26rem;
-    margin-top: 4rem;
-    width: 21rem;
-    transition: ease-in .4s;
+    color: rgb(247, 249, 249);
+    font-size: 2rem;
+    margin-bottom: 19rem;
 }
-.content2{
-    font-size: 1.8rem;
-    border: 0 ;
-    background-color:  rgb(2, 2, 40);
+.textarea{
+    position: absolute;
+    margin-right: 50rem;
+    background-color: rgb(2, 2, 40);
+    border: 0cap;
+    color: rgb(252, 255, 255);
+    font-size: 2rem;
+    margin-top: 8rem;
+    text-decoration: none;
+}
+.textarea:hover{
+    box-shadow: 20px aqua;
     color: aqua;
-    margin-left: -21rem;
-    margin-top: 2.6rem;
+   transition: ease-in .4s;
+}
+.TUNOMBRE:hover{
+    box-shadow: 20px aqua;
+    color: aqua;
+   transition: ease-in .4s;
+}
+.input2:hover{
+    box-shadow: 20px aqua;
+    color: aqua;
    transition: ease-in .4s;
 }

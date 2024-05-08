@@ -252,3 +252,15 @@ h2{
 .mensaje{
     padding: 3rem;
 }
+.GUARDAR{
+background-color: aqua;
+position: absolute;
+left: 380px;
+width: 10rem;
+height: 4rem;
+}
+.GUARDAR:hover{
+    box-shadow: 20px aqua;
+    color: rgb(246, 249, 249);
+   transition: ease-in .4s;
+}

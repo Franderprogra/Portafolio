@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(2, 2, 40);
+    
+}
+h1{
+    color: white;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5.5rem;
+    
+    
+}
+.contenedor-L1{
+    display: flex;
+    background-color: white;
+    width: 25rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    box-shadow: 1px 1px 1px 5px rgba(0, 255, 255, 0.336) ;
+    background-color: transparent;
+    
+}
+.formulario-L1{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
+    
+}
+.iconos{
+    left: 29rem;
+    width: 28px;
+    height: 28px;
+    margin-top: 12px;
+    position: absolute;
+}
+input{
+    width: 20rem;
+    border: 0;
+    color: white;
+}
+.input{
+    position: relative;
+    border-bottom: 2px solid;
+    background-color: transparent;
+    
+}
+button{
+    border-radius: 1rem;
+    border: 0cap;
+    width: 5rem;
+    height: 1.6rem;
+    color: white;
+    background-color: black;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+label{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

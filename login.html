@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>login</title>
     <link rel="stylesheet" href="css/styleL1.css">
 </head>
 
@@ -19,15 +18,15 @@
                 <form class="formulario-L1">
                     
                         <label for="">NAME</label>
-                        <input class="input" type="text" placeholder="ID" required>
+                        <input id="ID" class="input" type="text" placeholder="ID" required>
                         <label for="">EMAIL</label>
-                        <input class="input" type="email" name="" id="" placeholder="EMAIL" required>
+                        <input class="input" type="email" name="" id="email" placeholder="EMAIL" required>
                         <label for=""> PASSWORD</label>
-                        <input class="input" type="password" name="" id="" required placeholder="PASSWORD">
+                        <input class="input" type="password" name="" id="password" required placeholder="PASSWORD">
                     
                 </form>
                 <div class="boton">
-                    <button>INICIAR</button>
+                    <button type="button" onclick=inicio() >INICIAR</button>
                     <div><a href="login2.html">NO TENGO CUENTA</a></div>
                 </div>
             </div>
@@ -39,7 +38,7 @@
 
     </div>
 
-    <script src="js/java.js"></script>
+    <script src="js/login.js"></script>
 </body>
 
 </html>

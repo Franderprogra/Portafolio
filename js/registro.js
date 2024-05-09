@@ -5,7 +5,7 @@ let registroUser= [];
  function registrar(){
     registroUser= JSON.parse(localStorage.getItem("registro")) || [];
     encontrado= registroUser.find (usuario=> usuario.ID==ID.value &&  usuario.email==email.value)
-    console.log(encontrado)
+    
     if (encontrado!=undefined) {
         alert("este usuario ya esta registrado")
         return;

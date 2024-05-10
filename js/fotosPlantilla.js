@@ -34,6 +34,7 @@ let tunombre=document.getElementById("tunombre")
 let bienvenidad=document.getElementById("bienvenidad")
 let hablaDeTi=document.getElementById("hablaDeTi")
 let proyecto=document.getElementById("proyecto")
+let proyecto2=document.getElementById("proyecto2")
 let link1=document.getElementById("link1")
 let link2=document.getElementById("link2")
 let link3=document.getElementById("link3")
@@ -41,16 +42,18 @@ let link4=document.getElementById("link4")
 let registroUser=[];
 function guardar() {
   registroUser= JSON.parse(localStorage.getItem("registro")) || [];
-  if (ID != "" && email != "" && password != "") {  
+  
+  if (iniciales == iniciales.value && tunombre == tunombre.value && bienvenidad ==bienvenidad.value&& hablaDeTi== hablaDeTi.value && proyecto== proyecto.value && link1== link1.value && link2== link2.value && link3 ==link3.value && link4==link4.value && proyecto2==proyecto2.value) {  
     data = {
-      iniciales:iniciales.value
-      tunombre:tunombre.value
-      bienvenidad:bienvenidad.value
-      hablaDeTi:hablaDeTi.value
-      proyecto:proyecto.value
-      link1:link1.value
-      link2:link2.value
-      link3:link3.value
+      iniciales:iniciales.value,
+      tunombre:tunombre.value,
+      bienvenidad:bienvenidad.value,
+      hablaDeTi:hablaDeTi.value,
+      proyecto:proyecto.value,
+      link1:link1.value,
+      link2:link2.value,
+      link3:link3.value,
+      proyecto2:proyecto2.value,
       link4:link4.value
        
        
@@ -58,8 +61,8 @@ function guardar() {
    }
    
    registroUser.push(data)
-
    localStorage.setItem("registro",JSON.stringify(registroUser))
+   window.location.href= "plantilla.html"
    
 }
   

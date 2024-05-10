@@ -10,4 +10,8 @@ function inicio() {
         alert("BIEN HECHO")
         window.location.href = "indext.html"
     }
+    else if (inicio) {
+
+        alert("ESTE USUARIO NO TIENE CUENTA")
+    }
 }

@@ -21,6 +21,7 @@ let registroUser= [];
         registroUser.push(data)
 
         localStorage.setItem("registro",JSON.stringify(registroUser))
+        window.location.href= "login.html"
         
     }
     

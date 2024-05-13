@@ -171,8 +171,10 @@ a{
    
 }
 h1{
+    margin-top: -7rem;
     font-size: 1.5rem;
     color: rgb(2, 2, 40) ;
+    
 }
 .divider{
     margin-bottom: 2rem;

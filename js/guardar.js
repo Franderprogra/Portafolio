@@ -10,9 +10,9 @@
 //     let link4 = document.getElementById("link4").value;
 
 function pegar() {
-    let registroUser = JSON.parse(localStorage.getItem("registro")) || [];
+    let registroUser = JSON.parse(localStorage.getItem("portafolio")) || [];
     encontrado= registroUser.find (usuario=> usuario.ID==ID.value &&  usuario.email==email.value )
-
+    
     document.getElementById("iniciales1").textContent =usuarioLoggeado.iniciales;
     document.getElementById("tunombre1").textContent =usuarioLoggeado.tunombre;
     document.getElementById("bienvenidad1").textContent = usuarioLoggeado.bienvenidad;

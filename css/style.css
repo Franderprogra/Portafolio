@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Monserrat", sans-serif;
+    background-color: rgb(2, 2, 40);
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(2, 2, 40);
+    
+}
+.input2{
+    transition: ease-in .4s;
+    background-color: rgb(2, 2, 40);
+    border: 0cap;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    color: rgb(251, 254, 254);
+    font-size: 3rem;
+    
+}
+   
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.LISTA{
+    list-style: none;
+}
+.MENU-SUPERIOR{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 49%;
+    font-size: 1.5rem;
+    margin-left: -1rem;
+    
+
+}
+.HOME{
+    color: aqua;
+}
+
+
+.MENU-SUPERIOR a:hover{
+    background-color: aqua;
+    color:  rgb(2, 2, 40);
+   transition: ease-in .4s;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 500px;
+}
+
+
+
+.fotoPersonal{
+    width: 32rem;
+    height: 26rem;
+    margin-top: -7rem;
+   
+    
+}
+.Contenedor1{
+    
+    margin-top: 9rem;
+    margin-left: 20rem;
+    
+    
+    
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Foto2{
+    background-color:  rgb(2, 2, 40);
+    border: 0cap;
+    color:  rgb(2, 2, 40);
+    
+    margin-right: 30rem;
+    
+
+}
+.textFoto{
+    color: white;
+    margin-right: 40rem;
+    
+}
+.info-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.TUNOMBRE{
+    margin-left: 3rem;
+    background-color: rgb(2, 2, 40);
+    border: 0cap;
+    color: rgb(247, 249, 249);
+    font-size: 2rem;
+    margin-bottom: 19rem;
+}
+.textarea{
+    position: absolute;
+    margin-right: 50rem;
+    background-color: rgb(2, 2, 40);
+    border: 0cap;
+    color: rgb(252, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    width: 28rem;
+    height: 8rem;
+}
+.textarea:hover{
+    
+   transition: ease-in .4s;
+}
+.TUNOMBRE:hover{
+    box-shadow: 20px aqua;
+    color: aqua;
+   transition: ease-in .4s;
+}
+.input2:hover{
+    box-shadow: 20px aqua;
+    color: aqua;
+   transition: ease-in .4s;
+}
+.about{
+    border-radius: 3rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: white;
+    width: 117vw;
+    align-items: center;
+    
+    
+}
+
+.fotoPersonal2{
+    width: 32rem;
+    height: 26rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+   
+}
+.about-info{
+    padding: 2rem;
+   
+}
+h1{
+    margin-top: -7rem;
+    font-size: 1.5rem;
+    color: rgb(2, 2, 40) ;
+    
+}
+.divider{
+    margin-bottom: 2rem;
+    background-color: aqua;
+    height: 0.2rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.textarea2{
+    width: 40rem;
+    height: 12rem;
+    padding: 1rem;
+    border: 0;
+    font-size: 2.5rem;
+    color: rgb(2, 2, 40);
+}
+.Foto3{
+    margin-top: 27rem;
+   margin-left: -3rem;
+    color: white;
+}
+.textFoto2{
+    margin-top: 27rem;
+  
+}
+h2{
+    color: white;
+    font-size: 1.5rem;
+
+}
+.portafolio-encabezado{
+    width: 100vw;
+    padding: 5rem;
+
+
+}
+.portafolio .contenedor2{
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    background-color: rgb(3, 107, 98);
+    height: 500px;
+   
+}
+.Card-imagen{
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/proyecto.jpeg");
+    background-size: cover;
+}
+.card-title{
+    padding: 1rem;
+}
+.link-project{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.portafolio{
+    width: 100vw;
+    height: 50vw;
+}
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    margin-left: 13rem;
+}
+.contacto-conteneder{
+    padding: 1rem;
+
+}
+.mensaje{
+    padding: 3rem;
+}
+.GUARDAR{
+background-color: aqua;
+position: absolute;
+left: 380px;
+width: 10rem;
+height: 4rem;
+}
+.GUARDAR:hover{
+    box-shadow: 20px aqua;
+    color: rgb(246, 249, 249);
+   transition: ease-in .4s;
+}
+.contenedor-L1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
